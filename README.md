@@ -1,4 +1,4 @@
-# pnd-notes
+# Panda Notes
 
 Shared, curated **knowledge base** for the r3dpnd agents, served **read-only
 over MCP**. One place to keep durable reference knowledge so an agent in any
@@ -9,7 +9,7 @@ You curate the notes by hand. Agents only read.
 
 ## Layout
 
-```
+```json
 notes/
   security/     reference for the Endless Illusion security agents
   gamedev/      Godot / pnd-games knowledge
