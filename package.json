@@ -1,0 +1,19 @@
+{
+  "name": "pnd-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared, curated knowledge base for r3dpnd agents, served read-only over MCP.",
+  "bin": {
+    "pnd-notes": "server/pnd-notes.mjs"
+  },
+  "scripts": {
+    "start": "node server/pnd-notes.mjs",
+    "check": "node server/pnd-notes.mjs --selfcheck",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
